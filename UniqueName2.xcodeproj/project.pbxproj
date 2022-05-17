@@ -14,6 +14,8 @@
 		04680F752833D464009E11C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04680F742833D464009E11C3 /* Assets.xcassets */; };
 		04680F782833D464009E11C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04680F762833D464009E11C3 /* LaunchScreen.storyboard */; };
 		04680F802833F1DD009E11C3 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04680F7F2833F1DD009E11C3 /* FirstScreen.swift */; };
+		04DB82D128344D4400A98E23 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DB82D028344D4400A98E23 /* RegistrationView.swift */; };
+		04DB82D32834544A00A98E23 /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DB82D22834544A00A98E23 /* SecondScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		04680F772833D464009E11C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04680F792833D464009E11C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04680F7F2833F1DD009E11C3 /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
+		04DB82D028344D4400A98E23 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		04DB82D22834544A00A98E23 /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				04680F742833D464009E11C3 /* Assets.xcassets */,
 				04680F762833D464009E11C3 /* LaunchScreen.storyboard */,
 				04680F792833D464009E11C3 /* Info.plist */,
+				04DB82D028344D4400A98E23 /* RegistrationView.swift */,
+				04DB82D22834544A00A98E23 /* SecondScreen.swift */,
 			);
 			path = UniqueName2;
 			sourceTree = "<group>";
@@ -145,6 +151,8 @@
 				04680F702833D464009E11C3 /* ViewController.swift in Sources */,
 				04680F6C2833D464009E11C3 /* AppDelegate.swift in Sources */,
 				04680F6E2833D464009E11C3 /* SceneDelegate.swift in Sources */,
+				04DB82D128344D4400A98E23 /* RegistrationView.swift in Sources */,
+				04DB82D32834544A00A98E23 /* SecondScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

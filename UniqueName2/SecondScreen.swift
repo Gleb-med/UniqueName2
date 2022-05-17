@@ -9,10 +9,11 @@ import UIKit
 
 class SecondScreen: UIViewController {
 
+    @IBOutlet weak var photoBack: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        photoBack.layer.cornerRadius = 7
     }
     
 
