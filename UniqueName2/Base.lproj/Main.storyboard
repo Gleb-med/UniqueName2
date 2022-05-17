@@ -217,7 +217,6 @@
                                                         </subviews>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
-                                                            <constraint firstItem="Vra-sX-s6d" firstAttribute="top" secondItem="Ghb-rz-aiG" secondAttribute="top" id="4D2-eb-3uT"/>
                                                             <constraint firstItem="uj9-Lp-V4o" firstAttribute="leading" secondItem="fLM-k1-zni" secondAttribute="trailing" constant="7" id="9Xt-ql-JI1"/>
                                                             <constraint firstItem="Vra-sX-s6d" firstAttribute="top" secondItem="Ghb-rz-aiG" secondAttribute="top" constant="4" id="FRM-vl-3iH"/>
                                                             <constraint firstItem="uj9-Lp-V4o" firstAttribute="top" secondItem="Vra-sX-s6d" secondAttribute="bottom" constant="5" id="GpC-cm-sOn"/>
@@ -250,17 +249,22 @@
                                             <constraint firstAttribute="trailing" secondItem="Jsy-4n-YCk" secondAttribute="trailing" id="CF7-5c-Jgc"/>
                                             <constraint firstItem="Jsy-4n-YCk" firstAttribute="top" secondItem="fEK-TD-cB6" secondAttribute="top" id="W8R-qT-8Lu"/>
                                             <constraint firstItem="Ywg-6F-4cj" firstAttribute="leading" secondItem="fEK-TD-cB6" secondAttribute="leading" id="au2-Ib-gnu"/>
-                                            <constraint firstItem="Ywg-6F-4cj" firstAttribute="top" secondItem="Jsy-4n-YCk" secondAttribute="bottom" constant="20" id="jtW-c9-Jo4"/>
                                             <constraint firstItem="Jsy-4n-YCk" firstAttribute="leading" secondItem="fEK-TD-cB6" secondAttribute="leading" id="lof-qm-Cwh"/>
                                             <constraint firstAttribute="trailing" secondItem="Ywg-6F-4cj" secondAttribute="trailing" id="vbG-KM-quU"/>
                                         </constraints>
                                     </stackView>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="8Mp-LP-a2H">
-                                        <rect key="frame" x="80" y="320" width="254" height="32"/>
+                                        <rect key="frame" x="80" y="320" width="254" height="34"/>
+                                        <color key="backgroundColor" red="0.4941176176" green="0.53725492949999998" blue="0.98823523520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="33" id="HMp-BG-kl5"/>
+                                        </constraints>
                                         <segments>
                                             <segment title="Позвонить"/>
                                             <segment title="Написать"/>
                                         </segments>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="selectedSegmentTintColor" red="0.20392158630000001" green="0.81960785390000002" blue="0.52549022440000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </segmentedControl>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
