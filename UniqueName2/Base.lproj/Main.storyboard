@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Shl-NX-jHu">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="baQ-va-8bT">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -413,6 +413,23 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="gze-jF-8CO">
                                 <rect key="frame" x="0.0" y="111.5" width="414" height="750.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <view key="tableFooterView" contentMode="scaleToFill" id="5zI-6E-1Ij">
+                                    <rect key="frame" x="0.0" y="225" width="414" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="um3-hs-407">
+                                            <rect key="frame" x="19" y="0.0" width="377" height="44"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" red="0.4941176176" green="0.53725492949999998" blue="0.98823523520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="Оформить заказ">
+                                                <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
+                                            </buttonConfiguration>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                </view>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="idCell" rowHeight="158" id="cOx-61-crd" customClass="MyTableViewCell" customModule="UniqueName2" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="158"/>
@@ -425,6 +442,7 @@
                                                     <rect key="frame" x="12" y="2" width="154" height="154"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="154" id="CTf-sY-LxI"/>
+                                                        <constraint firstAttribute="width" constant="154" id="wr3-6h-HBo"/>
                                                     </constraints>
                                                 </imageView>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jwc-pi-WdR">
@@ -444,20 +462,14 @@
                                                                 <constraint firstAttribute="width" constant="24" id="WPY-WM-3zf"/>
                                                             </constraints>
                                                         </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Моква, 3-ий \n Новоподмосковный \nпереулок," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2X3-YV-ZYo">
-                                                            <rect key="frame" x="20" y="35" width="239" height="12"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                                            <color key="textColor" red="0.50588238240000005" green="0.57647061349999995" blue="0.54509806630000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Сегодня, 18 апреля 15:30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQA-wQ-0sH">
-                                                            <rect key="frame" x="20" y="71" width="127" height="12"/>
+                                                            <rect key="frame" x="20" y="83" width="127" height="12"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                             <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="450 м" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z5O-8Y-Nhy">
-                                                            <rect key="frame" x="204" y="53" width="30" height="12"/>
+                                                            <rect key="frame" x="204" y="65" width="30" height="12"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                             <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
@@ -469,14 +481,22 @@
                                                                 <color key="baseBackgroundColor" red="0.20392158630000001" green="0.81960785390000002" blue="0.52549022440000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                             </buttonConfiguration>
                                                         </button>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Моcква, 3-ий Новоподмосковный переулок, 7" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2X3-YV-ZYo">
+                                                            <rect key="frame" x="20" y="35" width="216" height="24"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                            <color key="textColor" red="0.50588238240000005" green="0.57647061349999995" blue="0.54509806630000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
                                                     </subviews>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="2X3-YV-ZYo" secondAttribute="trailing" id="09S-iw-SgF"/>
+                                                        <constraint firstAttribute="trailing" secondItem="2X3-YV-ZYo" secondAttribute="trailing" id="Ad9-tI-sNr"/>
                                                         <constraint firstAttribute="bottom" secondItem="IhK-b0-cFd" secondAttribute="bottom" id="CRo-ei-9aF"/>
+                                                        <constraint firstItem="2X3-YV-ZYo" firstAttribute="leading" secondItem="Jwc-pi-WdR" secondAttribute="leading" constant="20" id="Ggh-aI-SIr"/>
                                                         <constraint firstItem="sQA-wQ-0sH" firstAttribute="top" secondItem="2X3-YV-ZYo" secondAttribute="bottom" constant="24" id="M8I-Ev-pQ9"/>
                                                         <constraint firstAttribute="trailing" secondItem="CW4-0G-hvx" secondAttribute="trailing" id="MKy-pD-owl"/>
                                                         <constraint firstItem="CFO-sz-XjK" firstAttribute="top" secondItem="Jwc-pi-WdR" secondAttribute="top" id="ObY-jg-6yu"/>
-                                                        <constraint firstItem="2X3-YV-ZYo" firstAttribute="leading" secondItem="Jwc-pi-WdR" secondAttribute="leading" constant="20" id="Sp5-zf-G8b"/>
                                                         <constraint firstAttribute="trailing" secondItem="z5O-8Y-Nhy" secondAttribute="trailing" constant="2" id="Zg7-rd-Hgv"/>
                                                         <constraint firstItem="2X3-YV-ZYo" firstAttribute="top" secondItem="CW4-0G-hvx" secondAttribute="bottom" constant="11" id="adc-pn-R07"/>
                                                         <constraint firstItem="CW4-0G-hvx" firstAttribute="top" secondItem="Jwc-pi-WdR" secondAttribute="top" id="edZ-h3-Nn2"/>
@@ -505,26 +525,8 @@
                                             <outlet property="titleLabel" destination="CFO-sz-XjK" id="9sH-X1-w6J"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="JhE-nw-O0e">
-                                        <rect key="frame" x="0.0" y="202.5" width="414" height="43.5"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JhE-nw-O0e" id="wW9-bE-e4q">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="um3-hs-407">
-                                <rect key="frame" x="20" y="563" width="377" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.4941176176" green="0.53725492949999998" blue="0.98823523520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Оформить заказ">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
-                                </buttonConfiguration>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="h2b-U5-E8R"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>

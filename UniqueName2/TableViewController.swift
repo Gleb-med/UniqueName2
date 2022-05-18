@@ -17,7 +17,7 @@ class TableViewController: UIViewController, UITableViewDelegate {
         tableView.dataSource = self
         tableView.delegate = self
         
-        tableView.rowHeight = 160
+        tableView.rowHeight = 170
         makeOrderBtn.layer.cornerRadius = 7
 //        tableView.register(UINib(nibName: "MyTableViewCell", bundle: nil), forCellReuseIdentifier: idCell)
     }
